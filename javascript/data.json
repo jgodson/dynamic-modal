@@ -1,0 +1,32 @@
+[
+	{
+		"title" : "#about",
+		"heading" : "About Modal",
+		"content" : "This page is awesome! It loads data from a .json file to show in this here modal."
+	},
+	{
+		"title" : "#home",
+		"heading" : "Home Modal",
+		"content" : "This is the home page modal!"
+	},
+	{
+		"title" : "#contact",
+		"heading" : "Contact Modal",
+		"content" : "Name: Jason Godson<br/>Phone: 123-456-7890<br/>email: example@example.com"
+	},
+	{
+		"title" : "#html",
+		"heading" : "HTML Modal",
+		"content" : "HTML STUFF"
+	},
+	{
+		"title" : "#css",
+		"heading" : "CSS Modal",
+		"content" : "<code>body {<br/>padding-top: 50px;<br/>}<br/><br/>button {<br/>max-width: 250px;<br/>}</code>"
+	},
+	{
+		"title" : "#javascript",
+		"heading" : "JavaScript Modal",
+		"content" : "<code>console.log('Awesome!');</code>"
+	}
+]
