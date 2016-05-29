@@ -3,6 +3,8 @@
 var $modalHeader = $('#infoModal .modal-dialog .modal-content .modal-header .modal-title');
 var $modalBody = $('#infoModal .modal-dialog .modal-content .modal-body');
 var $modal = $('#infoModal');
+var $success = $('#success');
+var $error = $('#error');
 var localData;
 
 function loadData() {
@@ -12,7 +14,16 @@ function loadData() {
 		if (req.readyState === 4) {
 			if (req.status === 200) {
 				localData = JSON.parse(req.responseText);
-				console.log("Data loaded");
+				$success.fadeIn();
+				setTimeout(function () {
+					$success.fadeOut();
+				}, 3000);
+			}
+			else {
+				$error.fadeIn();
+				setTimeout(function () {
+					$error.fadeOut();
+				}, 3000);
 			}
 		}
 	};
