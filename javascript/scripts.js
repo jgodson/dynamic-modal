@@ -44,9 +44,9 @@ function showContent(title) {
 	}
 }
 
-$(document).ready(function() {
-	$(document).on('click', 'a', function(e) {
+$(document).ready(function () {
+	$(document).on('click', 'a', function (e) {
 		e.preventDefault();
 		showContent(e.toElement.hash);
-	})
+	});
 });
