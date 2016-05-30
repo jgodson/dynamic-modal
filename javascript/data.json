@@ -17,16 +17,16 @@
 	{
 		"title" : "#html",
 		"heading" : "HTML Modal",
-		"content" : "HTML STUFF"
+		"content" : "HTML stuff :)"
 	},
 	{
 		"title" : "#css",
 		"heading" : "CSS Modal",
-		"content" : "<code>body {<br/>padding-top: 50px;<br/>}<br/><br/>button {<br/>max-width: 250px;<br/>}</code>"
+		"content" : "<code>body {<br/>padding-top: 50px;<br/>}<br/><br/>.alert {<br/>display: none;<br/>position: fixed;<br/>bottom: -20px;<br/>width: 100%;<br/>text-align: center;<br/>}</code>"
 	},
 	{
 		"title" : "#javascript",
 		"heading" : "JavaScript Modal",
-		"content" : "<code>console.log('Awesome!');</code>"
+		"content" : "<code>console.log(\"This is Awesome!\");</code>"
 	}
 ]
