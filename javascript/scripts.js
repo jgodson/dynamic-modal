@@ -56,6 +56,7 @@ function showContent(title) {
 }
 
 $(document).ready(function () {
+	$.material.ripples()
 	$(document).on('click', 'a', function (e) {
 		e.preventDefault();
 		showContent(e.toElement.hash);
